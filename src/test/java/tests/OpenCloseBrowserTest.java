@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-public class GeneralPageTest {
+public class OpenCloseBrowserTest {
     protected WebDriver driver;
     @BeforeMethod
     public void setUp(){

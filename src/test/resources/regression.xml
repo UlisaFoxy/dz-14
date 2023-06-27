@@ -3,8 +3,8 @@
 
     <test name="Regression testing">
         <classes>
-            <class name="tests.OpenLinkElementsTest"/>
-            <class name="tests.OpenLinkWebtablesTest"/>
+            <class name="tests.ClickMeButtonTest"/>
+            <class name="tests.FillInFormTest"/>
         </classes>
 
     </test>

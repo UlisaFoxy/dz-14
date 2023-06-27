@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9b028a4-f484-4a1d-b7c6-05748fbaa699" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/AbstractPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/MainPageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/MainPageWebtables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/GeneralPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/OpenLinkElementsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/OpenLinkWebtablesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/regression.xml" afterDir="false" />
+    <list default="true" id="d9b028a4-f484-4a1d-b7c6-05748fbaa699" name="Changes" comment="DZ-14">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/ClickMeButtonPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ButtonsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/MainPageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/ButtonPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/MainPageWebtables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/WebtablesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GeneralPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/OpenCloseBrowserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/OpenLinkElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ClickMeButtonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/OpenLinkWebtablesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/FillInFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/regression.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +46,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -57,8 +55,8 @@
       <recent name="D:\Studying\QA Automation\Homework\dz-14\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.OpenLinkWebtablesTest">
-    <configuration name="OpenLinkElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.FillInFormTest">
+    <configuration name="ClickMeButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dz-14" />
       <extension name="coverage">
         <pattern>
@@ -67,7 +65,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.OpenLinkElementsTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.ClickMeButtonTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -75,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenLinkElementsTest.testOpenLinkPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ClickMeButtonTest.clickMeButtonPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dz-14" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +82,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.OpenLinkElementsTest" />
-      <option name="METHOD_NAME" value="testOpenLinkPositive" />
+      <option name="MAIN_CLASS_NAME" value="tests.ClickMeButtonTest" />
+      <option name="METHOD_NAME" value="clickMeButtonPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenLinkWebtablesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FillInFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dz-14" />
       <extension name="coverage">
         <pattern>
@@ -102,7 +100,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.OpenLinkWebtablesTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.FillInFormTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -110,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenLinkWebtablesTest.fillFormPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FillInFormTest.checkNewDataPositive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="dz-14" />
       <extension name="coverage">
         <pattern>
@@ -119,26 +117,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.OpenLinkWebtablesTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.FillInFormTest" />
+      <option name="METHOD_NAME" value="checkNewDataPositive" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FillInFormTest.fillFormPositive" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-14" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FillInFormTest" />
       <option name="METHOD_NAME" value="fillFormPositive" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenLinkWebtablesTest.testOpenLinkPositive" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="dz-14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.OpenLinkWebtablesTest" />
-      <option name="METHOD_NAME" value="testOpenLinkPositive" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.OpenLinkWebtablesTest" />
-        <item itemvalue="TestNG.OpenLinkElementsTest" />
-        <item itemvalue="TestNG.OpenLinkWebtablesTest.fillFormPositive" />
-        <item itemvalue="TestNG.OpenLinkWebtablesTest.testOpenLinkPositive" />
-        <item itemvalue="TestNG.OpenLinkElementsTest.testOpenLinkPositive" />
+        <item itemvalue="TestNG.FillInFormTest" />
+        <item itemvalue="TestNG.FillInFormTest.fillFormPositive" />
+        <item itemvalue="TestNG.FillInFormTest.checkNewDataPositive" />
+        <item itemvalue="TestNG.ClickMeButtonTest" />
+        <item itemvalue="TestNG.ClickMeButtonTest.clickMeButtonPositive" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +163,18 @@
       <option name="presentableId" value="Default" />
       <updated>1687078486299</updated>
     </task>
+    <task id="LOCAL-00001" summary="DZ-14">
+      <created>1687704959019</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687704959019</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DZ-14" />
+    <option name="LAST_COMMIT_MESSAGE" value="DZ-14" />
   </component>
 </project>
